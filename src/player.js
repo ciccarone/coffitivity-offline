@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.icon-cancel').addEventListener('click', () => {
     document.querySelector('.page3').style.display = 'none';
   });
+
+  var rangeInput = document.querySelector('#volume_control');
+
+  rangeInput.addEventListener("change", function() {
+      audioFile.volume = rangeInput.value;
+  }, false);
 });
 
 window.addEventListener('keydown', function (e) {

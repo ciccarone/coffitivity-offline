@@ -130,6 +130,10 @@ p {
     padding: 2px 0px;
 }
 
+.musicOptBox__volume {
+    width: 100%;
+}
+
 .page3 .musicOptBox a {
     color: #00d2af;
     text-decoration: none;
